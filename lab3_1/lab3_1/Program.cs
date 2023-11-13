@@ -7,42 +7,36 @@ namespace lab3_1
     {
         static void Main(string[] args)
         {
-            var stack = new my_stack<int>();
-            void clear()
-            {
-                int stack_size = stack.Count;
-                for (int i = 0; i < stack_size; i++)
-                {
-                    stack.Pop();
-                }
-                Console.WriteLine("ok");
-            }
+            my_stack stack = new my_stack();
 
             string answer = "";
+
             while (answer != "exit")
             {
                 answer = Console.ReadLine();
+                
                 if (answer.Split().First() == "push")
                 {
                     stack.Push(int.Parse(answer.Split().Last()));
-                }
-                if (answer == "size")
-                {
-                    Console.WriteLine($"{stack.Count}");
-                }
-                if (answer == "back")
-                {
-                    var item_back = stack.Back();
-                    Console.WriteLine($"{item_back}");
+                    Console.WriteLine("ok");
                 }
                 if (answer == "pop")
                 {
                     var item_pop = stack.Pop();
-                    Console.WriteLine($"{item_pop}");
+                    Console.WriteLine(item_pop);
+                }
+                if (answer == "back")
+                {
+                    Console.WriteLine(stack.Back());
+                }
+                if (answer == "size")
+                {
+                    Console.WriteLine(stack.Size());
                 }
                 if (answer == "clear")
                 {
-                    clear();
+                    stack.Clear();
+                    Console.WriteLine("ok");
                 }
             }
             Console.WriteLine("bye");

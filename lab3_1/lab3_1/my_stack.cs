@@ -2,36 +2,49 @@
 
 namespace lab3_1
 {
-    public class my_stack<T>
+    public class item
     {
-        private List<T> items = new List<T>();
-        public int Count => items.Count;    
-        public void Push(T item)
+        public int Value { get; } //выделение места для хранения данных
+        public item Next { get; set; } //следующий элемент
+        public item(int value)
         {
-            items.Add(item);
-            Console.WriteLine("ok");
+            Value = value; //записываем информацию в место для данных
+        }
+    }
+    public class my_stack
+    {
+        private item last; //последний элемент
+        private int size = 0;
+
+        public void Push(int value)
+        {
+            item new_item = new item(value);
+            new_item.Next = last;
+            last = new_item;
+            size++;
         }
 
-        public T Pop()
+        public int Pop()
         {
-            var item = top_item();
-            items.Remove(item);
-            return item;
-        }
-        public T Back()
-        {
-            var item = top_item();
-            return item;
+            int value = last.Value;
+            last = last.Next;
+            size--;
+            return value;
+
         }
 
-        private T top_item()
+        public int Back()
         {
-            var item = items.LastOrDefault();
-            if (item == null)
-            {
-                throw new NullReferenceException("Стек пуст.");
-            }
-            return item;
+            return last.Value;
+        }
+        public int Size()
+        {
+            return size;
+        }
+        public void Clear()
+        {
+            size = 0;
+            last = null;
         }
     }
 }
