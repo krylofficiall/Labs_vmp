@@ -1,0 +1,15 @@
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\bin\Debug\net6.0\lab5_2.exe
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\bin\Debug\net6.0\lab5_2.deps.json
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\bin\Debug\net6.0\lab5_2.runtimeconfig.json
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\bin\Debug\net6.0\lab5_2.dll
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\bin\Debug\net6.0\lab5_2.pdb
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.csproj.AssemblyReference.cache
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.AssemblyInfoInputs.cache
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.AssemblyInfo.cs
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.csproj.CoreCompileInputs.cache
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.dll
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\refint\lab5_2.dll
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.pdb
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\lab5_2.genruntimeconfig.cache
+C:\Users\krylo\Desktop\Универ\Алгоритмические языки\1lab\lab5_2\lab5_2\obj\Debug\net6.0\ref\lab5_2.dll
